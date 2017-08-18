@@ -45,7 +45,7 @@
 
 ``` bash
 # init template
-vue init CoderLQChou/vue-transition-template my-transition-app
+vue init CoderLQChou/v-transition-template my-transition-app
 
 # cd project
 cd my-transition-app
