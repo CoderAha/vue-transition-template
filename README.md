@@ -2,7 +2,7 @@
 
 > A VueRouter Transition Template.
 
-[线上地址](http://www.coderlife.com:4000)
+[演示地址：http://www.coderlife.com](http://www.coderlife.com:4000)
 
 ## Build Setup
 
