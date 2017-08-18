@@ -1,0 +1,207 @@
+﻿﻿@charset "utf-8";
+/* CSS Document */
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, tr, td, img, div, dl, dt, dd, input, textarea, a, span {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/*在css中关掉字体缩放*/
+img, a {
+  border: none;
+}
+
+/*a标签hover为蓝色*/
+input, select, textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul, li {
+  list-style: none;
+}
+
+i, em {
+  font-style: normal;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  z-index: 2;
+}
+
+/* 1.去除android 标签被点击时产生的边框 2.去除ios a标签被点击时产生的半透明灰色背景 */
+select, textarea, input {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+/*清浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*清除jq=mobile带来的loding问题*/
+.ui-loader-default {
+  display: none
+}
+
+.ui-mobile-viewport {
+  border: none;
+}
+
+.ui-page {
+  padding: 0;
+  margin: 0;
+  outline: 0
+}
+
+section, article, aside, header, footer, nav, dialog, figure, legend {
+  display: block;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  table-layout: fixed;
+}
+
+table td {
+  word-break: break-all;
+}
+
+caption, th {
+  text-align: left;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  width: auto \9; /* ie8 */
+}
+
+*:focus {
+  outline: 0;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+input[type=button] {
+  -webkit-appearance: none;
+  outline: none
+}
+
+::-webkit-input-placeholder {
+  color: #acacac;
+  font-size: .28rem;
+}
+
+:-moz-placeholder {
+  color: #acacac;
+}
+
+::-moz-placeholder {
+  color: #acacac;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/******= Typography =******/
+html, body {
+  height: 100%;
+  font-family: PingFang-SC-Regular, sans-serif;
+}
+
+html {
+  font-size: 50px;
+  outline: 0;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+body {
+  color: #333;
+  background: #f8f8f8;
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/******= Common style =******/
+.main, .page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: .28rem;
+  -webkit-overflow-scrolling: touch;
+  background-color: #f4f3f8;
+}
